@@ -53,8 +53,14 @@ export default function CandidateListItem({
       </div>
 
       <div className="col-span-1">{candidate.location}</div>
+
       <div className="col-span-1">{candidate.experience} years</div>
-      <div className="col-span-1">{candidate.dateApplied}</div>
+
+      {new Date(candidate.dateApplied).toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      })}
 
       <div className="col-span-1">
         <span

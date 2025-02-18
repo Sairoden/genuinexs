@@ -5,7 +5,7 @@ export const dummyCandidates = [
     status: "In progress",
     location: "Philippines",
     experience: 10,
-    dateApplied: "January 16, 2024",
+    dateApplied: "2024-01-16",
     roleFit: "High",
   },
   {
@@ -14,7 +14,7 @@ export const dummyCandidates = [
     status: "In progress",
     location: "Indonesia",
     experience: 4,
-    dateApplied: "January 15, 2024",
+    dateApplied: "2024-01-15",
     roleFit: "High",
   },
   {
@@ -23,7 +23,7 @@ export const dummyCandidates = [
     status: "In progress",
     location: "Philippines",
     experience: 2,
-    dateApplied: "August 12, 2024",
+    dateApplied: "2024-08-12",
     roleFit: "Medium",
   },
   {
@@ -32,7 +32,7 @@ export const dummyCandidates = [
     status: "In progress",
     location: "United Kingdom",
     experience: 5,
-    dateApplied: "August 10, 2024",
+    dateApplied: "2024-08-10",
     roleFit: "Very Low",
   },
   {
@@ -41,7 +41,7 @@ export const dummyCandidates = [
     status: "Reviewed",
     location: "United States",
     experience: 7,
-    dateApplied: "August 9, 2024",
+    dateApplied: "2024-08-09",
     roleFit: "Medium",
   },
   {
@@ -50,7 +50,7 @@ export const dummyCandidates = [
     status: "Shortlisted",
     location: "Canada",
     experience: 3,
-    dateApplied: "August 8, 2024",
+    dateApplied: "2024-08-08",
     roleFit: "High",
   },
 ];
